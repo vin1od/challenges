@@ -25,7 +25,7 @@ At least:
 
 ## Steps
 To achieve the requirements, you should follow this procedure:
-1. Fork this repository
+1. Clone this repository to your repo
 2. Set up the pipeline
 3. Modify the `index.html` file, changing the content inside `<main></main>` tags for something else i.e. `Hello! I'm [YOUR_NAME]`.
 4. Build the docker image and push it to a container registry
