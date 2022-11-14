@@ -18,7 +18,7 @@ The deadline is **7 days**, starting today (the day you got the email from HR wi
 At least:
 1. You must use [GitHub](https://github.com), [Gitlab](https://about.gitlab.com) or any other `git`-like repository for hosting the source code.
 2. You must use [Jenkins](https://www.jenkins.io), [GitHub Actions](https://docs.github.com/en/actions), [Gitlab CI/CD](https://docs.gitlab.com/ee/ci/) or any other automation tool for setting up the pipeline.
-3. You must use [Docker Hub](https://hub.docker.com) or any other *Docker* container registry to save the container images.
+3. You must use [Docker Hub](https://hub.docker.com) or any other *Docker* container registres like ACR, ECR etc. to save the container images.
 4. The pipeline should be triggered when a *Pull request* is merged into `main` or `master` branches of your repository. Direct commits into `main` or `master` are not allowed.
 5. You must use as much configuration-as-code (CaC) as possible. Authentication secrets like usernames/passwords/tokens should be isolated from the tools you're using.
 6. (BONUS POINT) Deploy the image and run the app somewhere
@@ -29,7 +29,7 @@ To achieve the requirements, you should follow this procedure:
 2. Set up the pipeline
 3. Modify the `index.html` file, changing the content inside `<main></main>` tags for something else i.e. `Hello! I'm [YOUR_NAME]`.
 4. Build the docker image and push it to a container registry
-5. (BONUS POINT) Deploy the image and run the app somewhere
+5. (BONUS POINT) Deploy the image and run the app somewhere on AKS/EKS/Minikube/Your own Kubernetes cluster, if possible create the CD pipeline in Jenkins for the deployment to Kubernetes cluster.
 
 
 ## Deliverables
