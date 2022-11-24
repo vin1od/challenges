@@ -17,7 +17,7 @@ The deadline is **7 days**, starting today (the day you got the email from HR wi
 ## Requirements
 At least:
 1. You must use [GitHub](https://github.com), [Gitlab](https://about.gitlab.com) or any other `git`-like repository for hosting the source code.
-2. You must use [Jenkins](https://www.jenkins.io), [GitHub Actions](https://docs.github.com/en/actions), [Gitlab CI/CD](https://docs.gitlab.com/ee/ci/) or any other automation tool for setting up the pipeline.
+2. You must use [Jenkins](https://www.jenkins.io) automation tool for setting up the pipeline.
 3. You must use [Docker Hub](https://hub.docker.com) or any other *Docker* container registres like ACR, ECR etc. to save the container images.
 4. The pipeline should be triggered when a *Pull request* is merged into `main` or `master` branches of your repository. Direct commits into `main` or `master` are not allowed.
 5. You must use as much configuration-as-code (CaC) as possible. Authentication secrets like usernames/passwords/tokens should be isolated from the tools you're using.
